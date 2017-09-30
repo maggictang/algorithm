@@ -1,0 +1,17 @@
+package map;
+
+public class Node<Key,Value> {
+	// ˝æ›”Ú
+	public Key key;
+	public Value value;
+	//÷∏’Î”Ú
+	public Node next;
+	
+	public Node(Key key,Value value) {
+		this.key = key;
+		this.value = value;
+	}
+	
+}
+
+
